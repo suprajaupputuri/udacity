@@ -30,7 +30,7 @@ DEFAULT_DATA_QUALITY_RULESET = """
 CustomerTrusted_node1745416386235 = glueContext.create_dynamic_frame.from_catalog(database="stedi", table_name="customer_trusted", transformation_ctx="CustomerTrusted_node1745416386235")
 
 # Script generated for node Accelerometer Trusted
-AccelerometerTrusted_node1745416450853 = glueContext.create_dynamic_frame.from_catalog(database="stedi", table_name="accelerometer_landing", transformation_ctx="AccelerometerTrusted_node1745416450853")
+AccelerometerTrusted_node1745416450853 = glueContext.create_dynamic_frame.from_catalog(database="stedi", table_name="accelerometer_trusted", transformation_ctx="AccelerometerTrusted_node1745416450853")
 
 # Script generated for node SQL Query
 SqlQuery0 = '''
